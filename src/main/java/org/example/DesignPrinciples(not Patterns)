@@ -1,0 +1,7 @@
+1.One thing that is associated with all the design patterns is that
+  encapsulate the code parts which vary a lot and make separate group of classes to later extend or alter
+  without affecting other classes.
+
+2.Program to an interface, not an implementation
+
+3.Favor composition over inheritance

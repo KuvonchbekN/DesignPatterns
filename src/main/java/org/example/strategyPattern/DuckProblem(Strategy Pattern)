@@ -1,0 +1,12 @@
+- Fly and quack methods are not common for all types of ducks. So we cannot put them in parent class
+- we cannot create separate interface for this methods as well;
+- Solution: We can create a set of classes for such kind of unique methods using DPs;
+
+
+We used to have lots of unnecessary methods in Duck super interface which we needed to implement in all
+children, if we had one necessary method in one child, then we had to have it in all children classes
+which was a lot of unnecessary code;
+-Solution: Just create interfaces for the behaviours => in DuckProblemSolution package;
+For example: We have one interface FlyBehavior and can have multiple implementation classes
+
+
