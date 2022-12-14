@@ -1,0 +1,3 @@
+Publishers + Subscribers = Observer Pattern
+Observer Pattern is exactly like Newspaper publishing
+    Difference => Publisher=Subject & Subscribers=Observers

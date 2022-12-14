@@ -5,3 +5,6 @@
 2.Program to an interface, not an implementation
 
 3.Favor composition over inheritance
+
+4.Strive for loose coupling between objects that interact
+
