@@ -8,3 +8,5 @@
 
 4.Strive for loose coupling between objects that interact
 
+5. Classes should be open for extension, close for modification (Open-Closed Principle)
+

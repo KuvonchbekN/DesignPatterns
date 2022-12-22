@@ -1,5 +1,13 @@
 package org.example;
 
+import org.example.decoratorPattern.beverages.Beverage;
+import org.example.decoratorPattern.beverages.Espresso;
+import org.example.decoratorPattern.condiments.Decorator;
+import org.example.decoratorPattern.condiments.Mocha;
+import org.example.observerPattern.CurrentConditionsDisplay;
+import org.example.observerPattern.DisplayElement;
+import org.example.observerPattern.Subject;
+import org.example.observerPattern.WeatherData;
 import org.example.strategyPattern.DuckProblemSolution.Duck;
 import org.example.strategyPattern.DuckProblemSolution.MallardDuck;
 import org.example.strategyPattern.DuckProblemSolution.flying.FlyWithWings;
@@ -20,9 +28,18 @@ public class Main {
         */
 
         //Testing the weapon game
-        Character character = new King();
+        /*Character character = new King();
         character.setWeaponBehavior(new KnifeBehavior());
         character.fight();
+*/
+
+
+        Beverage espresso = new Espresso();
+        Decorator mocha = new Mocha(espresso);
+        System.out.println(mocha.cost());
+        System.out.println(mocha.getDescription());
+
+
 
 
 
