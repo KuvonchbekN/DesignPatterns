@@ -40,10 +40,7 @@ public class WeatherData implements Subject {
 
     @Override
     public void notifyObservers() {
-        observerList
-                .forEach(observer -> {
-                    observer.update();
-                });
+        observerList.forEach(Observer::update);
     }
 
     public void measurementsChanged() {//getting update from Weather Station=> this is directly connected to the Weather Station
